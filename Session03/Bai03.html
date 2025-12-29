@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <form>
+        <tr>
+          <td>
+            <label for="fullName">Họ và tên:</label>
+          </td>
+          <td>
+            <input type="text" id="fullName" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="Email">Email:</label>
+          </td>
+          <td><input type="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="date">Ngày sinh:</label></td>
+          <td><input type="date" /></td>
+        </tr>
+        <tr>
+          <td><label for="Gender">Giới tính:</label></td>
+          <td>
+            <input type="radio" name="Gender" />Nam
+            <input type="radio" name="Gender" />Nữ
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Tel"></label>Số điện thoại:</td>
+          <td><input type="tel" /></td>
+        </tr>
+        <tr>
+          <td><label for="major">Chuyên ngành</label></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td><label for="year">Năm nhập học</label></td>
+          <td><input type="number" min="2000" max="2026" /></td>
+        </tr>
+        <tr>
+          <td><label for="number">Điểm GPA</label></td>
+          <td><input type="number" min="0.00" max="4.00" /></td>
+        </tr>
+        <tr>
+          <td><label for="andress">Địa chỉ</label></td>
+          <td><textarea name="andress" id="andress"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="class">Lớp học:</label></td>
+          <td>
+            <select name="class" id="class">
+              <option value="class">Lớp 1</option>
+              <option value="class">Lớp 2</option>
+              <option value="class">Lớp 3</option>
+              <option value="class">Lớp 4</option>
+              <option value="class">Lớp 5</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="datetime">Ngày đăng kí học:</label></td>
+          <td><input type="datetime-local" /></td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Gửi thông tin" /></td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>

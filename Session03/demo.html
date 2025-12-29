@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>
+        <h3>Thêm thông tin sinh viên</h3>
+      </legend>
+      <form>
+        <div>
+          <label for="fullName">Họ và tên</label>
+          <input id="fullName" type="text" placeholder="Nhập họ và tên" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="Tel">Số điện thoại</label>
+          <input id="Tel" type="tel" placeholder="Nhập số điện thoại" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="Email">Nhập email</label>
+          <input id="Email" type="email" placeholder="Nhập email" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="Password">Nhập mật khẩu</label>
+          <input id="Password" type="password" placeholder="Nhập password" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="Gender">Nhập giới tính</label>
+          <input checked id="Gender" type="radio" name="gender" /> Nam
+          <input id="Gender" type="radio" name="gender" /> Nữ
+          <input id="Gender" type="radio" name="gender" /> Khác
+        </div>
+
+        <br />
+
+        <div>
+          <label for="hobbies">Nhập sở thích</label>
+          <input checked type="checkbox" /> Nhảy dây
+          <input type="checkbox" /> Bơi lội <input type="checkbox" /> Bic ca bôn
+        </div>
+        <br />
+
+        <div>
+          <label for="dateOfBirth">Nhập ngày sinh</label>
+          <input id="dateOfBirth" type="date" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="">Tỉnh thành phố</label>
+          <select>
+            <option value="">Hà Nội</option>
+            <option value="">Ninh Bình</option>
+            <option value="">Thanh Hóa</option>
+            <option value="">Nghệ An</option>
+            <option value="">Thái Bình</option>
+            <option value="">Phú Thọ</option>
+          </select>
+        </div>
+
+        <br />
+        <div>
+          <label for="">Tiến độ học tập</label>
+          <input type="range" />
+        </div>
+        <br />
+        <div>
+          <label for="">Màu sắc yêu thích</label>
+          <input type="color" />
+        </div>
+
+        <br />
+
+        <div>
+          <input type="button" value="Hủy" />
+          <input type="reset" value="Làm mới" />
+          <input type="submit" value="Thêm mới" />
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>

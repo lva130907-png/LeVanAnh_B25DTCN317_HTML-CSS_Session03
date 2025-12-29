@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Đăng ký sinh viên mới</h2>
+    <form>
+      <div>
+        <label for="fullName">Họ và tên</label>
+        <input id="fullName" type="text" value="Nguyễn Văn An" />
+      </div>
+      <br />
+      <div>
+        <label for="dateOfBirth">Ngày sinh đầy đủ</label>
+        <input value="2005-03-15" id="dateOfBirth" type="date" />
+      </div>
+      <br />
+      <div>
+        <label for="month">Tháng và năm nhập học</label>
+        <input
+          value="2023-09"
+          id="month"
+          type="month"
+          placeholder="Nhập tháng và năm nhập học"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="time"></label>Thời gian học
+        <input value="08:00" type="time" id="time" />
+      </div>
+      <br />
+      <div>
+        <label for="Gender">Giới tính</label>
+        <input id="Gender" type="radio" name="gender" /> Nam
+        <input type="radio" name="gender" /> Nữ
+        <input id="Gender" checked id="Khác" type="radio" name="gender" /> Khác
+      </div>
+      <br />
+      <div>
+        <label for="email">Email sinh viên</label>
+        <input value="sinhvien@university.edu.vn" type="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="password">Mật khẩu</label>
+        <input value="12345678891" type="password" id="password" />
+      </div>
+      <br />
+      <div>
+        <label for="introduction">Mục tiêu học tập</label>
+        <textarea name="introduction" id="introduction" cols="40" rows="8">
+Muốn trở thành lập trình viên giỏi và đóng góp cho xã hội
+</textarea
+        >
+      </div>
+      <br />
+      <div>
+        <label for="facility">Cơ sở</label>
+        <select name="facility" id="facility">
+          <option value="facility">Hà Nội</option>
+          <option value="facility">Hồ Chí Minh</option>
+          <option value="facility">Đà Nẵng</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="photo">Ảnh thẻ sinh viên</label>
+        <input type="file" value="Choose File" />
+      </div>
+      <br />
+      <div>
+        <label for="subject">Môn học yêu thích</label>
+        <input checked id="subject" type="checkbox" /> Toán học
+        <input checked id="subject" type="checkbox" /> Lặp trình
+        <input type="checkbox" /> Tiếng Anh <input type="checkbox" /> Vật lý
+      </div>
+      <br />
+      <div>
+        <label for="range">Tiến độ học tập</label>
+        <input type="range" min="0" max="100" value="70" />
+      </div>
+      <br />
+      <div>
+        <label for="number">Năm học thứ</label>
+        <input type="number" value="2" min="1" max="5" />
+      </div>
+      <br />
+      <div>
+        <label for="search">Tìm kiếm khóa học</label>
+        <input type="search" name="" id="" value="Khoa học máy tính" />
+      </div>
+      <br />
+      <div>
+        <label for="color">Màu sắc yêu thích</label>
+        <input type="color" />
+      </div>
+      <br />
+      <div>
+        <input type="button" value="Hủy" />
+        <input type="reset" value="Làm mới" />
+        <input type="submit" value="Gửi" />
+      </div>
+    </form>
+  </body>
+</html>
